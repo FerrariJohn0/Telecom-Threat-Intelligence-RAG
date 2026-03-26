@@ -1,5 +1,12 @@
 # Telecom Threat Intelligence System RAG
+## Overview
+This project implements a Retrieval-Augmented Generation (RAG) system for telecom cybersecurity vulnerability analysis.
 
+## Features
+- Semantic search using embeddings
+- FAISS vector database
+- FastAPI backend
+- Telecom vulnerability filtering (NVD)
 ## Install
 pip install -r requirements.txt
 
