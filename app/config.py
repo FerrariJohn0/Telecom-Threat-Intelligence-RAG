@@ -1,0 +1,4 @@
+
+EMBEDDING_MODEL = "all-MiniLM-L6-v2"
+VECTOR_DIM = 384
+TOP_K = 5

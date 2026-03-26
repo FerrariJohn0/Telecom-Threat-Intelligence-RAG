@@ -1,0 +1,42 @@
+[
+{
+"id":"CVE-2025-1001",
+"description":"5G core network vulnerability allowing denial of service attack on AMF network function."
+},
+{
+"id":"CVE-2025-1002",
+"description":"SS7 signaling protocol weakness enabling location tracking and call interception."
+},
+{
+"id":"CVE-2025-1003",
+"description":"IMS authentication flaw allowing attackers to bypass SIP authentication."
+},
+{
+"id":"CVE-2025-1004",
+"description":"Diameter protocol vulnerability causing session hijacking in telecom billing systems."
+},
+{
+"id":"CVE-2025-1005",
+"description":"5G UPF misconfiguration enabling traffic redirection attacks."
+},
+{
+"id":"CVE-2025-1006",
+"description":"SIP protocol buffer overflow leading to denial of service in VoIP networks."
+},
+{
+"id":"CVE-2025-1007",
+"description":"5G network slicing security flaw allowing unauthorized slice access."
+},
+{
+"id":"CVE-2025-1008",
+"description":"Telecom base station firmware vulnerability enabling remote takeover."
+},
+{
+"id":"CVE-2025-1009",
+"description":"LTE signaling attack causing radio network congestion."
+},
+{
+"id":"CVE-2025-1010",
+"description":"SIM authentication vulnerability enabling subscriber impersonation."
+}
+]
