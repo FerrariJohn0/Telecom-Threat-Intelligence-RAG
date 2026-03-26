@@ -1,5 +1,4 @@
-
-# Telecom Threat Intelligence Demo
+# Telecom Threat Intelligence System RAG
 
 ## Install
 pip install -r requirements.txt
