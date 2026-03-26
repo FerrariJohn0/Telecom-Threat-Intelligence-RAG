@@ -7,14 +7,7 @@ This project implements a Retrieval-Augmented Generation (RAG) system for teleco
 - FAISS vector database
 - FastAPI backend
 - Telecom vulnerability filtering (NVD)
-## Install
-pip install -r requirements.txt
 
-## Build Vector Index
-python scripts/build_index.py
-
-## Run API
-uvicorn app.main:app --reload
 
 ## API Docs
 http://localhost:8000/docs
@@ -75,7 +68,7 @@ This project solves that problem by:
 
 ## 🚀 How to Run the Project
 
-### 1️⃣ Clone Repository
+### Implementation
 
 ```bash
 git clone https://github.com/your-username/telecom-threat-intelligence-rag.git
@@ -84,14 +77,15 @@ cd telecom-threat-intelligence-rag
 ##  Crete a Virtual Environment
 python -m venv venv
 venv\Scripts\activate   # Windows
- ## Install dependencies
- pip install -r requirements.txt
 
- ## Prepare dataset
- python scripts/extract_telecom_cves.py
+## Install dependencies
+pip install -r requirements.txt
 
- ##Build Vector Index
- python scripts/build_index.py
+## Prepare dataset
+python scripts/extract_telecom_cves.py
 
- ##Run Fast API
- uvicorn app.main:app --reload
+##Build Vector Index
+python scripts/build_index.py
+
+##Run Fast API
+uvicorn app.main:app --reload
